@@ -8,7 +8,7 @@ screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 -- Configurar o botão de spam
 spamButton.Parent = screenGui
-spamButton.Size = UDim2.new(0, 100, 0, 50) -- Tamanho do botão
+spamButton.Size = UDim2.new(0, 50, 0, 25) -- Tamanho do botão
 spamButton.Position = UDim2.new(0.5, -50, 0.5, -25) -- Centro da tela
 spamButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- Cor preta
 spamButton.BackgroundTransparency = 0.3 -- 30% de transparência
